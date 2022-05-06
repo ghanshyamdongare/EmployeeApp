@@ -34,13 +34,13 @@ import org.mockito.Mockito.verify
 @RunWith(AndroidJUnit4ClassRunner::class)
 class EmployeeListFragmentTest {
 
-    @get:Rule
+    @get:Rule(order = 1)
     var instantTaskExecutorRule = InstantTaskExecutorRule()
 
-    @get:Rule
+    @get:Rule(order = 2)
     var hiltRule = HiltAndroidRule(this)
 
-    @get:Rule
+    @get:Rule(order = 3)
     var coroutinesRule = AndroidMainCoroutinesRule()
 
     private val data = listOf(
