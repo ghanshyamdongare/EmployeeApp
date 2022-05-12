@@ -9,7 +9,7 @@
 7. Retrofit for Network API calls
 8. Navigation Graph,
 9. Junit4 unit test 
-10. Expresso 
+10. Espresso 
 11. JetPack Navigation component for fragments
 12. MVVM archi
 13. Glide for image loading for list screen and detail screen
